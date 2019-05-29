@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FREELANCER KAWCHAR</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--LIGHTBOX CSS-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="container-fluid desktop_header" id="desktopheader">
+    <div class="container logo_social_menu" id="set-1">
+        <div class="row">
+            <div class="col-md-3 logo_top">
+               <h2 style="color:white;">LOGO HERE</h2>
+            </div>
+            <div class="col-md-2 phone_top">
+                <p><i style="margin-right:10px;" class="fas fa-phone"></i>Your phone no</p>
+            </div>
+            <div class="col-md-3 email_top">
+                <p><i style="margin-right:10px;" class="fas fa-envelope"></i>youremail@gmail.com</p>
+                
+            </div>
+            <div class="col-md-4 social_menu_top">
+                <ul>
+                    <li><a class="fab fa-facebook-f" href=""></a></li>
+                        <li><a class="fab fa-twitter" href=""></a></li>
+                        <li><a class="fab fa-youtube" href=""></a></li>
+                        <li><a class="fab fa-linkedin" href=""></a></li>
+                        <li><a class="fab fa-instagram" href=""></a></li>
+                </ul>
+            </div>
+        </div>
+		
+		
+    </div>
+<!-- TAG LINE AND MAIN MENU WRAPPPER-->
+            <div class="container" id="set-2">
+                <div class="row">
+                    <div class="col-md-3 top_slogan">
+                        <h2>TAGLINE HERE</h2>
+                    </div>
+                    <div class="col-md-5">
+                        <nav class="main_menu">
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="#service">SERVICE</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+					<div class="col-md-4 searchbar">
+                        <form role="search" method="get" id="searchform" class="searchform" action="">
+                            <div>
+                               <div class="row">
+                                   <div class="col-8">
+                                         <input class="searchinput" type="text" value="bd" name="s" id="s" placeholder="<?php the_search_query();?> ">
+                                   </div>
+                                   <div class="col-4">
+                                          <input type="submit" id="searchsubmit" value="Search">
+                                   </div>
+                               </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+<!-- DESKTOP HEADER END-------------------------->
+<!-- MOBILE HEADER------------------------------->
+<div class="container-fluid mobile_header" id="MobileNav">
+    <div class="container" id="sect-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mobile_logo_top" id="MobileBar">
+                   <h3>LOGO HERE</h3>
+                </div>
+            </div>
+            <div class="col-md-6" id="">
+                <div class="toggle_btn">
+                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-times"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mobile_menu_wrapper">
+    <div class=""><!-- mobile header wrapper class-->
+        <nav class="mobile_menu"> <!-- menu wrap-->
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BLOG</a></li>  
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">SKILL</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="spacer"></div>
+</div>
+<!-- End MOBILE HEADER------------------------------->
+<!-- SLIDER HERE OPTION------------------------------>
+<div class="container-fluid">
+            <div class="slider">
+                <img src="img/apple.jpg" alt="">
+            </div>
+    </div>
+<!-- END SLIDER CODE ------------------------------------->
+
+<!-- BLOG POST HERE--------------------------------------->
+<div class="container-fluid home_blog_wrapper" id="container_fluid">
+    <div class="container" id="blog">
+        <h2 class="home_resent">RESENT POST</h2>
+        <div class="row">
+            <!--WHILE LOOP HERE-->
+            <div class="col-md-6 home_single_post"> 
+               <h2><a href="">DUMMY  POST</a></h2>
+                <div class="metabox"></div>
+                <img src="img/post1.png" alt="">
+                <p class="home_content"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                      book. It has survived not only five centuries, but also the leap into electronic </p>
+                <div class="read_more_home"><a href=""><button>Read More...</button></a></div>
+            </div>
+
+            <div class="col-md-6 home_single_post"> 
+                    <h2><a href="">DUMMY POST</a></h2>
+                    <div class="metabox"></div>
+                    <img src="img/post1.png" alt="">
+                    <p class="home_content">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+                            of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+                    </p>
+                    <div class="read_more_home"><a href=""><button>Read More...</button></a></div>
+                </div>
+            <div class="col-md-6"></div>
+
+    <!--END POST WHILE-->
+        </div>
+    </div>
+<!-- END BLOG POST---------------------------------->
+    <div class="container">
+            <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+    </div>
+<!-- SERVICE POST----------------------------------->
+    <div class="container" id="service">
+        <h2 class="service_head">service</h2>
+        <div class="row">
+
+            <div class="col-md-4 service_wrapper_single">
+                <img src="img/4.png" alt="">
+                <h2>Create Website</h2>
+                <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <button>View Details...</button>
+            </div>
+
+            <div class="col-md-4 service_wrapper_single">
+                <img src="img/1.png" alt="">
+                <h2>LANDING PAGE</h2>
+                <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+                </p>
+                <button>View Details...</button>
+            </div>
+
+            <div class="col-md-4 service_wrapper_single">
+                <img src="img/5.png" alt="">
+                <h2>Sales Funnel</h2>
+                <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <button>View Details...</button>
+            </div>
+            <div class="col-md-4 service_wrapper_single">
+                <img src="img/6.png" alt="">
+                <h2>Facebook Pixel</h2>
+                <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <button>View Details...</button>
+            </div>
+            <div class="col-md-4 service_wrapper_single">
+                <img src="img/2.png" alt="">
+                <h2>Contact form Newsletter</h2>
+                <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                 </p>
+                <button>View Details...</button>
+            </div>    
+            <div class="col-md-4 service_wrapper_single">
+                <img src="img/7.png" alt="">
+                <h2>web design</h2>
+                <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <button>View Details...</button>
+            </div>
+            <div class="service_details">
+                <a class="service_more_button" href="https://"><button>VIEW MORE SERVICE</button></a>
+            </div>
+        </div>
+    </div>
+<!-- SERVICE SECTION END----------------------------------->
+        <div class="container">
+                <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+        </div>
+<!--ABOUT AND SERVICE SECTION HERE------------------------->
+    <div class="container" id="about">
+        <h2 class="about_head">FEW WORD ABOUT KAWCHAR</h2>
+        <div class="row">
+            <div class="col-md-8 about_me_text_home">
+                <H2>Hi I am kawchar</H2>
+                <P>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </P>
+                <div class="download_cv">
+                   <span><a href=""><button>Download cv</button></a></span>
+                   <span><a href="#"><button>VIEW MORE...</button></a></span>
+                </div>
+
+            </div>
+            <div class="col-md-4 my_img_home">
+                <img src="img/myimage.png" alt="">
+            </div>
+        </div>
+    </div>
+<!--ABOUT PART END----------------------------------->
+        <div class="container">
+                <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+        </div>
+<!-- SKILL AND EDUCATION PART START------------------>
+        <div class="container" id ="skill">
+            <div class="row">
+                <div class="col-md-6 full_skill_wrap">
+                      <h2 class="skill_head">SKILL</h2> 
+                      <div class="progress_single">
+                            <h2 style="padding:5px;">HTML</h2>
+                            <div class="skill_wrap">
+                                <div class="skill html">90%</div>
+                            </div>
+                        </div>
+                        <div class="progress_single">
+                            <h2>CSS</h2>
+                            <div class="skill_wrap" >
+                                <div class="skill css">85%</div>
+                            </div>
+                         </div>
+                        <div class="progress_single">
+                            <h2>JavaScript</h2>
+                            <div class="skill_wrap" >
+                                <div class="skill javascript">80%</div>
+                            </div>
+                        </div>
+                        <div class="progress_single">
+                            <h2>JQUERY</h2>
+                            <div class="skill_wrap">
+                                <div class="skill jquery">90%</div>
+                            </div>
+                        </div>
+                        <div class="progress_single">
+                            <h2>BOOTSTRAP</h2>
+                            <div class="skill_wrap" >
+                                <div class="skill bootstrap">90%</div>
+                            </div>
+                        </div>
+                        <div class="progress_single">
+                            <h2>PHP</h2>
+                            <div class="skill_wrap" >
+                                <div class="skill php">70%</div>
+                            </div>
+                        </div>
+                        <div class="progress_single">
+                            <h2>WORDPRESS</h2>
+                            <div class="skill_wrap" >
+                                <div class="skill wordpress">80%</div>
+                            </div>
+                        </div>
+                        <div class="progress_single">
+                            <H2>PHOTOSHOP</h2>
+                            <div class="skill_wrap" >
+                                <div class="skill photoshop">70%</div>
+                            </div>
+                        </div>
+                    </div>
+    
+                 <div class="col-md-6 education_full_wrap">
+                     <h2 class="education_head">EDUCATION</h2>
+                     <div class="education">
+                         <h2>B.A, Kobi Nazrul GOVT college</h2>
+                         <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                 
+                                
+                         </p>
+                     </div>
+                     <div class="education">
+                            <h2>H.S.C, Phatharat Rc College</h2>
+                            <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                      
+                                     
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+<!--EDUCATION AND SKILL PART END----------------------------------->
+        <div class="container">
+                <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+        </div>
+<!-- GALLERY PART START------------------>
+        <div class="container" id="gallery">
+            <h2>PROJECT GALLERY</h2>
+            <div class="row">
+                <div class="col-md-4 gallery">
+                    <a href="img/8.png" data-lightbox="projectgallery"><img src="img/8.png" alt=""></a>
+                </div>
+                <div class="col-md-4 gallery">
+                    <a href="img/9.png" data-lightbox="projectgallery"><img src="img/9.png" alt=""></a>
+                </div>
+                <div class="col-md-4 gallery">
+                    <a href="img/10.png" data-lightbox="projectgallery"><img src="img/10.png" alt=""></a>
+                </div>
+                <div class="col-md-4 gallery">
+                    <a href="img/11.png" data-lightbox="projectgallery"><img src="img/11.png" alt=""></a>
+                </div>
+                <div class="col-md-4 gallery">
+                    <a href="img/12.png" data-lightbox="projectgallery"> <img src="img/12.png" alt=""></a>
+                </div>
+                <div class="col-md-4 gallery">
+                    <a href="img/13.png" data-lightbox="projectgallery"> <img src="img/13.png" alt=""></a>
+                </div>            
+            </div>
+            <div class="service_details">
+                    <a class="service_more_button" href="https://www.behance.net/freelancerkawchar"><button>VIEW MORE PROJECT</button></a>
+            </div>
+        </div>
+<!--PORTFOLIO GALLERY END----------------------------------->
+    <div class="container">
+            <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+    </div>
+<!--  YOUTUBE VIDEO START PART--------------------------->
+    <div class="container" id="youtube">
+            <h2>YOUTUBE</h2>
+        <div class="row">
+            <div class="col-md-4 youtube_single">
+                    <iframe width="100%" height="250px" src="https://www.youtube.com/embed/6un3_cmpSyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4 youtube_single">
+                <iframe width="100%" height="250px" src="https://www.youtube.com/embed/6un3_cmpSyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4 youtube_single">
+                <iframe width="100%" height="250px" src="https://www.youtube.com/embed/6un3_cmpSyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div> 
+    </div>
+<!--YOUTUBE END----------------------------------->
+<div class="container">
+        <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+</div>
+<!-- TESTIMONIAL SLIDER PART START--------------------------->
+    <div class="container" id="testimonial">
+        <!-- Swiper -->
+        <h2 class="our-client">Our Client's</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imgbx">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="client-details">
+                        <h2>Freelancerkawchar</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="imgbx">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="client-details">
+                        <a><h2>Freelancerkawchar</h2></a>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgbx">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="client-details">
+                        <a><h2>Freelancerkawchar</h2></a>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="imgbx">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="client-details">
+                        <a><h2>Freelancerkawchar</h2></a>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgbx">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="client-details">
+                        <a><h2>Freelancerkawchar</h2></a>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="imgbx">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="client-details">
+                        <a><h2>Freelancerkawchar</h2></a>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+<!-- CLIENT'S TESTIMONIAL PART END HERE--------------------------->
+<div class="container">
+        <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+</div>
+<!-- MY LIFE JOURNEY SECTION START-------------------------->
+    <div class="container" id="lifejourney">
+        <h2>LIFE JOURNEY</h2>
+        <div class="row">
+
+            <div class="col-md-3 column">
+              <div class="card">
+                <p><i class="fa fa-cloud-moon"></i></p>
+                <h3>11+</h3>
+                <p>Partners</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 column">
+              <div class="card">
+                <p><i class="fa fa-check"></i></p>
+                <h3>55+</h3>
+                <p>Projects</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 column">
+              <div class="card">
+                <p><i class="fa fa-smile"></i></p>
+                <h3>100+</h3>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+        
+            <div class="col-md-3 column">
+              <div class="card">
+                <p><i class="fa fa-coffee"></i></p>
+                <h3>100+</h3>
+                <p>Meetings</p>
+              </div>
+            </div>
+        </div>
+    </div>
+<!--END LIFE JOURNEY SECTION----------------------------------->
+<div class="container">
+        <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+</div>
+<!-- CONTACT FORM--------------------------->
+
+    <div class="container" id="contact">
+        <h2>CONTACT US</h2>
+        <div class="row">
+            <div class="col-md-6 contact-single">
+                <form action="">
+                    <tabl>
+                        <tr>
+                            <label for="username">YOUR NAME</label>
+                            <td><input type="text" name="username" placeholder=" Write Your Name"></td>
+                        </tr>
+                        <tr>
+                                <label for="usermail">YOUR E-MAIL</label>
+                            <td><input type="email" name="usemail" placeholder=" Write Your Mail"></td>
+                        </tr>
+                        <tr>
+                            <label for="subject">subject</label>
+                            <td><input type="text" name="subject" placeholder="Subject"></td>
+                        </tr>
+                        <tr>
+                            <label for="message">MESSAGE</label>
+                            <td><textarea name="message" id="" cols="50" rows="5" placeholder="Message Text"></textarea></td>
+                        </tr>
+                        <tr>
+                                <td></td>
+                                <td><input type="submit" name="submit" value="SEND MESSAGE"></td>
+                            </tr>
+                    </table>
+                </form>
+            </div>
+            <!--MAP SECTION-->
+            <div class="col-md-6 contact-single">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3870.146383884055!2d90.46022588077788!3d23.714131784866726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b77630f11b5d%3A0x9dff893a02b9a94e!2sImpress+Fashion+Ltd.!5e0!3m2!1sen!2sbd!4v1556695176455!5m2!1sen!2sbd" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--CONTACT AND MAP SECTION END HERE----------------------------------->
+<div class="container-fluid" id="container_fluid">
+        <div class="container">
+                <div class="spacer"></div> <!--PLEASE USE THIS SEPARATE FOR SEPARATE CONTENT-->
+        </div>
+</div>
+<!--FOOTER WIDGETS & FOOTER-------------------------->
+
+<div class="container-fluid " id="footer">
+    <div class="container footer-widget">
+        <div class="row">
+            <div class="col-md-4 widget-address">
+                <h2>ADDRESS</h2>
+                <i class="fa fa-map-marker-alt"></i>
+                <p>Mendibari Bazar, D.R Mahabubur Rahaman Molla College Dhaka 1205 BANGLADESH </p>
+            </div>
+            <div class="col-md-4 footer-social">
+                <h2>CONNECT WITH US</h2>
+                <i class="fa fa-link"></i>
+                    <ul>
+                        <li><a class="fab fa-facebook-f" href=""></a></li>
+                        <li><a class="fab fa-twitter" href=""></a></li>
+                        <li><a class="fab fa-youtube" href=""></a></li>
+                        <li><a class="fab fa-linkedin" href=""></a></li>
+                        <li><a class="fab fa-instagram" href=""></a></li>
+                    </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>E-MAIL</h2>
+                <i class="fa fa-envelope"></i>
+                <p>yourname@gmail.com</p>
+                <p>yourname@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="container footer-text">
+            <h2>ALL RIGHT RESERVE COPYRIGHT BY <a target="blank" href="https://www.freelancerkawchar.com">FREELANCER KAWCHAR</a></h2>
+    </div>
+
+    
+    <div class="container">
+        <div class="top">
+            <img src="im/gototop.png" alt="">
+
+            
+        </div>
+    </div>
+<!-- botttom to top button link -->
+</div>
+
+
+ <script>
+    // This is a scroll to top function
+    $(window).scroll(function(){
+        if($(this).scrollTop()>300){
+            $(".top").fadeIn();
+        }else{
+            $(".top").fadeOut();
+        }
+    });
+    $(document).ready(function(){
+        $(".top").click(function(){
+            $("html , body").animate({scrollTop:0}, 1000);
+        });
+        //For  menu javascript
+        $(".responsive_icon").click(function(){
+            $(".responsive_menu_mobile").fadeToggle(1000);
+        });
+        
+    });
+
+</script>
+
+
+  <!-- Testimonial slider clients account -->
+  <script type="text/javascript" src="js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate:40,
+        stretch:0,
+        depth: 200,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+<!-- TESTIMONIAL SLIDER -------------------------->
+<script language="javascript"> 
+        jQuery(document).ready(function(){
+            jQuery('#testimonials .slide');
+            setInterval(function(){
+                jQuery('#testimonials .slide').filter(':visible').fadeOut(1000,function(){
+                    if(jQuery(this).next('.slide').size()){
+                        jQuery(this).next().fadeIn(1000);
+                    }
+                    else{
+                        jQuery('#testimonials .slide').eq(0).fadeIn(1000);
+                    }
+                });
+            },1500);    
+        }); 
+        </script>
+
+
+
+<!-- CLICK MENU BAR AND SMOOTH SCROLL-->
+<script>
+var $root = $('html, body');   // Website smooth scroll 
+$('a[href^="#"]').click(function () {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+
+    return false;
+});
+
+$(window).scroll(function(){  // After scroll hide top social menu bar
+	if($(this).scrollTop()>230){
+        $(".logo_social_menu").fadeOut();
+        $('.desktop_header').css("background-color", "#ddd");
+        $('#set-2').css('background', '#FF7A09');
+	}else{
+        $(".logo_social_menu").fadeIn();
+        $('.desktop_header').css("background-color", "#FF7A09");
+        $('#set-2').css('background', '#FF7A09');
+	}
+});
+
+$(window).scroll(function(){      //MOBILE BAR  SHOW HIDE FIXED CODE
+	if($(this).scrollTop()>100){
+		$(".toggle_btn").fadeOut();
+	}else{
+		$(".toggle_btn").fadeIn();
+	}
+});
+</script>
+ <!-- MENU RESPONSIVE JQUERY-->
+ <script>
+    $(document).ready(function(){ // Mobile responsive menu 
+        $('.toggle_btn .fa-times').hide();
+        $('.toggle_btn .fa-bars').click(function(){
+            $(this).hide();
+            $('.toggle_btn .fa-times').show();
+            $('.mobile_menu_wrapper').slideDown(1000);
+        });
+        $('.toggle_btn .fa-times').click(function(){
+            $(this).hide();
+            $('.toggle_btn .fa-bars').show();
+            $('.mobile_menu_wrapper').slideUp(1000);
+        })
+    });
+</script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+@media(max-width:1000px){
+    .phone_top, .email_top{
+        display:none;
+    }
+    .social_menu_top{
+        float:right;
+        position: absolute;
+        right:0px;
+    }
+    .logo_top{
+        float:left;
+    }
+}
+@media(max-width:780px){
+    .desktop_header{
+        display:none;
+        position: relative;
+    }
+}
+@media(min-width:780px){
+    .mobile_header{
+        display:none;
+    }
+}
